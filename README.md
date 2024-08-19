@@ -39,7 +39,14 @@ You will create a React application that displays a list of courses offered by a
 
 - **App Component:**
 
-  - Receives a `courses` prop, an array of course objects.
+  - Receives a `courses` prop, an array of course objects. The object structure is as follows:
+    ```js
+    {
+      name: "Course Name",
+      courseId: "Course ID",
+      studentPositions: X,
+    }
+    ```
   - Forwards the `courses` prop to the `CourseList` component.
 
 - **CourseList Component:**

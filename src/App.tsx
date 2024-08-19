@@ -4,7 +4,7 @@ function App() {
 
   return (
     <>
-      <div>Exercise 2</div>
+      <div>Week exercise 2 - Read README.md for instructions</div>
     </>
   )
 }
