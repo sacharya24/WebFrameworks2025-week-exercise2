@@ -52,10 +52,12 @@ You will create a React application that displays a list of courses offered by a
 - **CourseList Component:**
 
   - Receives the `courses` prop from the `App` component.
+  - Is located in the src folder
   - Renders a `Course` component for each course in the `courses` array, passing the course's `name`, `courseId`, and `studentPositions` as individual props to the `Course` component.
 
 - **Course Component:**
   - Receives three props: `name`, `courseId`, and `studentPositions`.
+  - Is located in the src folder
   - Renders the following DOM structure:
     ```jsx
     <div className="course">
